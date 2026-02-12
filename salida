@@ -1,0 +1,46 @@
+Remove the SOL and Na in topol,top in case you are running a previous calculation
+SOLVATION
+Note that major changes are planned in future for editconf, to improve usability and utility.
+Read 23 atoms
+No velocities found
+    system size :  0.832  0.408  0.357 (nm)
+    diameter    :  0.836               (nm)
+    center      :  0.044  0.011  0.008 (nm)
+    box vectors :  0.000  0.000  0.000 (nm)
+    box angles  :   0.00   0.00   0.00 (degrees)
+    box volume  :   0.00               (nm^3)
+    shift       :  1.375  1.407  1.411 (nm)
+new center      :  1.418  1.418  1.418 (nm)
+new box vectors :  2.836  2.836  2.836 (nm)
+new box angles  :  90.00  90.00  90.00 (degrees)
+new box volume  :  22.82               (nm^3)
+
+WARNING: Masses and atomic (Van der Waals) radii will be guessed
+         based on residue and atom names, since they could not be
+         definitively assigned from the information in your input
+         files. These guessed numbers might deviate from the mass
+         and radius of the atom type. Please check the output
+         files if necessary. Note, that this functionality may
+         be removed in a future GROMACS version. Please, consider
+         using another file format for your input.
+
+NOTE: From version 5.0 gmx solvate uses the Van der Waals radii
+from the source below. This means the results may be different
+compared to previous GROMACS versions.
+
+++++ PLEASE READ AND CITE THE FOLLOWING REFERENCE ++++
+A. Bondi
+van der Waals Volumes and Radii
+J. Phys. Chem. 68 (1964) pp. 441-451
+-------- -------- --- Thank You --- -------- --------
+
+Adding line for 732 solvent molecules with resname (SOL) to topology file (topol.top)
+Setting the LD random seed to -623919881
+
+Generated 210 of the 2556 non-bonded parameter combinations
+
+Excluding 3 bonded neighbours molecule type 'DPHE'
+
+Excluding 2 bonded neighbours molecule type 'SOL'
+
+Excluding 2 bonded neighbours molecule type 'SOL'

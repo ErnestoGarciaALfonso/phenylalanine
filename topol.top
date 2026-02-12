@@ -1,0 +1,23 @@
+; Include forcefield parameters
+#include "./gromos54a7_atb.ff/forcefield.itp"
+
+
+; Include chain topologies
+#include "Structure.itp"
+
+; Include water topology
+;#include "./gromos54a7_atb.ff/spc.itp"
+
+;#ifdef POSRES_WATER
+; Position restraint for each water oxygen
+;[ position_restraints ]
+;  i funct       fcx        fcy        fcz
+;   1    1       1000       1000       1000
+;#endif
+
+[ system ]
+DPHE 
+
+[ molecules ]
+; Compound        nmols
+DPHE 8
